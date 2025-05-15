@@ -1,0 +1,42 @@
+ nav {
+    border: solid #001C55;
+    background-color:#0E6BA8;
+ }
+
+ nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    padding: 0px;
+ }
+
+ .favorite-colors ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 2;
+ }
+
+ .favorites ul {
+   
+   margin-left: 30px;
+   margin-bottom: 20px;
+   line-height: 1.6;
+ }
+
+ .image-row {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 15px;
+   justify-content: center;
+   margin-top: 15px;
+   margin-bottom: 40px;
+ }
+ 
+
+ .image-row img {
+   width: 180px;
+   height: auto;
+   border-radius: 8px;
+ }
+
+ 
